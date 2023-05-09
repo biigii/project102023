@@ -1,0 +1,35 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap";
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #1cb61c;
+  height: 150px;
+}
+header .navigation {
+  text-align: center;
+  line-height: 150px;
+}
+header .navigation a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 20px;
+  transition-property: color;
+  transition-duration: 500ms;
+}
+header .navigation a:hover {
+  color: #d68a20;
+}
+
+h1 {
+  color: #d68a20;
+  font-family: "Roboto", sans-serif;
+  font-size: 4em;
+  font-weight: 100;
+}/*# sourceMappingURL=main.css.map */

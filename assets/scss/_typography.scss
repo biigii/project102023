@@ -1,0 +1,14 @@
+@use "./variables" as v;
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap";
+
+h1 {
+  color: v.$primary-color;
+  // font-family: v.$font-family;
+  // font-size: 4em;
+  // font-weight: 100;
+  font: {
+    family: v.$font-family;
+    size: 4em;
+    weight: 100;
+  }
+}

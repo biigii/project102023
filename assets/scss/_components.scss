@@ -1,0 +1,31 @@
+@use './variables' as v;
+
+header {
+  background-color: v.$tertiary-color;
+  height: 150px;
+  .navigation {
+    text-align: center;
+    line-height: 150px;
+    a {
+      color: #fff;
+      // text: {
+      //   decoration: none;
+      //   transform: uppercase;
+      // }
+      text-decoration: none;
+      text-transform: uppercase;
+      // margin: {
+      //   left: 20px;
+      //   right: 20px;
+      // }
+      margin: 0 20px;
+      transition: {
+        property: color;
+        duration: 500ms
+      };
+      &:hover {
+        color: v.$primary-color;
+      }
+    }
+  }
+}
